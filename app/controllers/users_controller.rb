@@ -10,5 +10,6 @@ class UsersController < ApplicationController
 # ===============追加==============
     @tweets = @user.tweets
 # ================================
+    @favorite_tweets = @user.favorite_tweets # 追加:favorit機能
   end
 end
